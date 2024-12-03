@@ -111,10 +111,18 @@ footer {
 }
 
 .modal-content {
+    display: flex;
+    gap: 1em;
+    align-items: center;
     background: #3b3b3b;
     padding: 2rem;
     border-radius: 8px;
     width: 90%;
     max-width: 500px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
+
+.modal-content img {
+    width: 100%;
 }

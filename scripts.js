@@ -10,7 +10,16 @@ const texts = [
     "O ODS 7 aborda a necessidade de garantir energia para todos, com foco na energia limpa, aquelas que são renováveis. Esse objetivo conecta vários aspectos da nossa vida, já que a energia é fundamental tanto no cotidiano quanto na produção e na prestação de serviços.",
     "O ODS 12 enfatiza a importância de assegurar padrões sustentáveis de consumo e produção, promovendo o uso eficiente de recursos, a redução de resíduos e a reciclagem. Esse objetivo visa minimizar os impactos ambientais e incentivar práticas responsáveis em todas as etapas da cadeia de consumo."
 ]
-
+const srcs = [
+    "https://masterdica.com/wp-content/uploads/2023/06/wall-e-md-2.jpg", 
+    "https://omundodewalle.wordpress.com/wp-content/uploads/2013/12/em1.jpg", 
+    "https://ulbra-to.br/encena/uploads/wall-e-screenshot-8.jpg", 
+    "https://dentrodachamine.files.wordpress.com/2015/01/09.png", 
+    "https://ulbra-to.br/encena/uploads/walle-eve-army-sm.jpg", 
+    "https://assets.mubicdn.net/images/artworks/556332/images-original.png?1686643082", 
+    "https://upload.wikimedia.org/wikipedia/commons/7/79/Objetivo_Desenvolvimento_Sustent%C3%A1vel_7_PT.webp", 
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGSzmqAtcKakJ67ibPQ-jskxjjh-bFeMGOpg&s" 
+]
 window.addEventListener("click", (event) => {
     if (event.target === modal) {
         modal.style.display = "none";
@@ -19,5 +28,6 @@ window.addEventListener("click", (event) => {
 
 function loadModal(index) {
     pModal.innerHTML = texts[index];
+    imgModal.src = srcs[index];
     modal.style.display = "flex";
 }
