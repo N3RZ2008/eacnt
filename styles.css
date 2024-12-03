@@ -7,13 +7,14 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size: large;
     line-height: 1.6;
     background-color: #3b3b3b;
     color: #f4f4f9;
 }
 
 img {
-    width: 50%;
+    width: 65%;
 }
 
 header {
@@ -38,11 +39,14 @@ main {
     padding: 2rem;
 }
 
-.about,
-.questions,
-.ods {
+main img {
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.about, .questions, .ods {
     width: 100%;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
 .about h2,
