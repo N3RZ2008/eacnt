@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #3b3b3b;
+    color: #f4f4f9;
+}
+
+img {
+    width: 50%;
+}
+
+header {
+    background-color: #5cb85c;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about,
+.questions,
+.ods {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.about h2,
+.questions h2,
+.ods h2 {
+    color: #5cb85c;
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.ods-cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    max-width: 300px;
+}
+
+.card h3 {
+    color: #5cb85c;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
